@@ -1,16 +1,3 @@
-// Image switcher code
-
-let myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/firefox-icon.png') {
-    myImage.setAttribute ('src','C:\Users\Hp\Documents\web_projects\images\profile_image.PNG');
-  } else {
-    myImage.setAttribute ('src','C:\Users\Hp\Documents\web_projects\images\profile_image.PNG');
-  }
-}
-
 // Personalized welcome message code
 
 let myButton = document.querySelector('button');
